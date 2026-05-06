@@ -12,7 +12,7 @@ function App() {
   const [imagePreview, setImagePreview] = useState(null);
   const [theme, setTheme] = useState('light');
 
-  const API_BASE = 'http://localhost:8000';
+  const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000';
 
   useEffect(() => {
     loadState();
