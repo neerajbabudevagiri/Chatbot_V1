@@ -351,10 +351,6 @@ VITE_API_BASE=http://localhost:8000
 - Add voice input/output
 - Add conversation sharing
 
-## License
-
-MIT
-
 ## Getting Help
 
 1. Check the troubleshooting section
