@@ -136,14 +136,14 @@ Reinstall: rm -r node_modules && npm install
    Python is a programming language.
    It was created by Guido van Rossum.
    ```
-2. Click "Document" button
+2. Click " Document" button
 3. Upload test.txt
 4. Ask: "What is Python?"
 5. Bot should reference document
 
 ### Test 3: Image Upload
 1. Prepare any JPG or PNG image
-2. Click "Image" button
+2. Click " Image" button
 3. Upload image
 4. Ask: "What is in this image?"
 5. Bot should analyze image
