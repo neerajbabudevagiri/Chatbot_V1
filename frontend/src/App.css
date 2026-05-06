@@ -1,0 +1,78 @@
+:root {
+  --body-bg-light: #f0f2f5;
+  --body-bg-dark: #121212;
+}
+
+[data-bs-theme="light"] body {
+  background-color: var(--body-bg-light);
+}
+
+[data-bs-theme="dark"] body {
+  background-color: var(--body-bg-dark);
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+#chat2 .form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.chat-window {
+  scrollbar-width: thin;
+  scrollbar-color: #dee2e6 transparent;
+}
+
+[data-bs-theme="dark"] .chat-window {
+  scrollbar-color: #444 transparent;
+}
+
+.chat-window::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-window::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chat-window::-webkit-scrollbar-thumb {
+  background-color: #dee2e6;
+  border-radius: 10px;
+}
+
+[data-bs-theme="dark"] .chat-window::-webkit-scrollbar-thumb {
+  background-color: #444;
+}
+
+/* Custom transitions */
+.card {
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #0084ff;
+  border: none;
+  transition: transform 0.1s ease;
+}
+
+.btn-primary:active {
+  transform: scale(0.95);
+}
+
+.badge {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.send-arrow {
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 10px solid white;
+  margin-left: 2px;
+}
